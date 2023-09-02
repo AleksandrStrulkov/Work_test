@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "work-test"
+version = "0.1.0"
+description = ""
+authors = ["AleksandrStrulkov <astrulkov@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "work_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
